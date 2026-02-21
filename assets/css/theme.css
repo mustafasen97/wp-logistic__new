@@ -1,0 +1,16 @@
+:root{--wplog-primary:#fb923c;--wplog-secondary:#1e3a8a;--wplog-accent:#3b82f6;--wplog-text:#1f2937;--wplog-bg:#f8fafc}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--wplog-text);background:#fff}
+.site-container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.site-header__topbar{background:var(--wplog-secondary);color:#fff;padding:.5rem 0}
+.site-header__main{display:flex;gap:1rem;align-items:center;justify-content:space-between;padding:1rem 0}
+.site-nav ul{display:flex;list-style:none;gap:1rem;padding:0;margin:0}
+.btn{display:inline-block;padding:.7rem 1.1rem;border-radius:.4rem;text-decoration:none}
+.btn--primary{background:var(--wplog-primary);color:#fff}
+.hero{padding:5rem 0;background:var(--wplog-bg)}
+.services{padding:4rem 0}.services__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.service-card{background:#fff;border:1px solid #e5e7eb;border-radius:.5rem;padding:1rem}
+.content-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:2rem;padding:2rem 0}
+.widget{padding:1rem;border:1px solid #e5e7eb;border-radius:.5rem;background:#fff;margin-bottom:1rem}
+.site-footer{background:#0f172a;color:#fff;padding:2rem 0;margin-top:3rem}
+@media (max-width:900px){.content-layout{grid-template-columns:1fr}.site-nav{display:none}}
